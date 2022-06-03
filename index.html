@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <title>Ashish Gupta</title>
+</head>
+<body>
+    <div class="topContainer">
+        <div class="option">
+            <!-- <a class="active" href="#About Me"> HOME </a> -->
+            <!-- <a href="#About Me"> PROJECTS </a> -->
+            <a href="#skills"> SKILLS </a>
+            <a href="#resume"> RESUME </a>
+            <a href="#contact"> CONTACT </a>
+        </div>
+        <img class="bitmoji" src="img/bitmoji.png" alt="This image source is wrong">
+        <h1 class="me" >I'M ASHISH!</h1>
+        <P class="myslef" >Front end Developer, Student at IIITV-ICD, Learner</P>
+
+        <script type="text/javascript" color="black" pointColor="255,0,0" opacity='0.7' zIndex="-2" count="200" src="dist/canvas-nest.js"></script>
+        <script type="text/javascript" src="dist/canvas-nest.umd.js"></script>
+        <script type="text/javascript">
+        // var cn = new CanvasNest(document.getElementById('area-render'), {
+        //     color: '255,0,255',
+        //     count: 10,
+        // });
+
+        function asyncLoad() {
+            var i = document.createElement("iframe");
+            i.scrolling = "no";
+            i.frameborder = "0";
+            i.border = "0";
+            i.setAttribute("frameborder", "0", 0);
+            i.width = "100px";
+            i.height = "20px";
+            document.getElementById("github-iframe").appendChild(i);
+        }
+        function loadGitHubBtn() {
+            if (window.addEventListener) {window.addEventListener("load", asyncLoad, false);}
+            else if (window.attachEvent) {window.attachEvent("onload", asyncLoad);}
+            else {window.onload = asyncLoad;}
+        }
+
+        </script>
+        
+    </div>
+<!-- 
+    <section class="projects" >
+      <div class="myProjects">
+        <h2></h2>
+      </div>
+    </section>
+ -->
+
+    <section id="skills" class="skills">
+        
+        <div class="container aos-init aos-animate" data-aos="fade-in"> 
+          <h2 class="text-white main-font">My <span class="text-blue main-font">Skills</span></h2>
+          <ul class="skills-icons">
+            <li><img src="img/html5.png" alt=""><span>HTML</span></li>
+            <li><img src="img/css-3.png" alt=""><span>CSS</span></li>
+            <li><img src="img/javascriptLogo.png" alt=""><span>JavaScript</span></li>
+            <li><img src="img/reactLogo.png" alt=""><span>React</span></li>
+            <li><img src="img/nodejsLogo.png" alt=""><span>NodeJS</span></li>
+            <li><img src="img/c-programming.png" alt=""><span>C Lang</span></li>
+            <li><img src="img/javaLogo.png" alt=""><span>Java Lang</span></li>
+            <li><img src="img/pythonLogo.png" alt=""><span>Python Lang</span></li>
+            <li><img src="img/gitLogo.png" alt=""><span>Git</span></li>
+            <li><img src="img/MySQLlogo.png" alt=""><span>MySQL</span></li>
+            <li><img src="img/adobe-illustrator.png" alt=""><span>Adobe Illustrator</span></li>
+            <li><img src="img/figmaLogo.png" alt=""><span>Figma</span></li>
+            <li><img src="img/canvaLogo.png" alt=""><span>Canva</span></li>
+          </ul>
+        </div>
+  
+      </section>
+
+      <section id="resume" class="resume">
+        <h1>Download my Resume</h1>
+        <a href="https://drive.google.com/file/d/1bQJhS_UboZels2mpYdFK-ECHpvqfIw5s/view?usp=sharing" target="_blank" ><img src="img/download.png" alt=""></a>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title main-font aos-init aos-animate" data-aos="fade-in">Contact <span class="text-blue main-font">Me</span></h2>
+          <div class="card-container">
+            <div class="card aos-init aos-animate" data-aos="fade-in">
+                <img src="img/mail.png" alt="">
+              <h3>Email</h3>
+              <p>iamashishkumar77@gmail.com</p>
+            </div>
+            <div class="card aos-init aos-animate" data-aos="fade-in" data-aos-delay="100">
+              <img src="img/guthub.png" alt="">
+              <h3>GitHub</h3>
+              <a href="https://github.com/ashish777gupta" class="text-blue" target="_blank">ashish777gupta</a>
+            </div>
+            <div class="card aos-init aos-animate" data-aos="fade-in" data-aos-delay="200">
+              <img src="img/Linkedin.png" alt="">
+              <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/ashish-gupta-422117212" class="text-blue" target="_blank">ashish-gupta-422117212</a>
+            </div>
+          </div>
+          
+          <!-- <form id="contact-form" data-aos="zoom-in" data-aos-delay="300" action="https://formspree.io/f/mjvjylnp" method="POST" class="aos-init">
+            <h2 class="main-font">Send <span class="text-blue main-font">Email</span></h2>
+  
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Name" required="">
+            </div>
+  
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your email" required="">
+            </div>
+  
+            <div class="form-group">
+              <textarea name="message" id="message" rows="7" placeholder="Message" required=""></textarea>
+            </div>
+  
+            <button type="submit" class="btn-email">
+              <span class="default">Send</span>
+              <span class="success">
+                  <svg viewBox="0 0 16 16">
+                      <polyline points="3.75 9 7 12 13 5"></polyline>
+                  </svg>Sent
+              </span>
+              <svg class="trails" viewBox="0 0 33 64">
+                  <path d="M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60"></path>
+                  <path d="M6,4 C8,13.3333333 9,22.6666667 9,32 C9,41.3333333 8,50.6666667 6,60"></path>
+              </svg>
+              <div class="plane">
+                  <div class="left"></div>
+                  <div class="right"></div>
+              </div>
+            </button>
+            <div id="status"></div> -->
+          </form>
+        </div>
+      </section>
+
+      
+</body>
+<footer>
+  <h3>Ashish Gupta</h3>
+  <p class="madewithlove">
+    Made with <img class="madewithloveImg" src="img/heartIcon.png" alt=""> in India
+  </p>
+  <img class="bottomImg" src="img/footerBottom.svg" alt="">
+</footer>
+</html>

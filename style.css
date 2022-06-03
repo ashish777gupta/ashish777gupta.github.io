@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+body { 
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(46, 46, 46);
+  }
+  
+.bitmoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+.me {
+    margin-top: -3%;
+    margin-bottom: -15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.option a{
+    margin-bottom: 20px;
+    background: transparent;
+    padding: 8px 10px 8px 10px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+.option {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(214, 214, 214);
+}
+
+.option :hover{
+    border-bottom: 3px solid rgb(100, 100, 100);
+    border-top: 3px solid rgb(100, 100, 100);
+    color: black;
+    font-weight: bold;
+}
+
+.option a.active {
+    border-bottom: 3px solid rgb(100, 100, 100);
+    border-top: 3px solid rgb(100, 100, 100);
+    color: grey;
+    font-weight: bold;
+}
+
+.topContainer {
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 9px solid black;
+    border-bottom: 4px dashed grey;
+}
+
+
+@media screen and (max-width: 500px) {
+    .option a{
+        padding: 3px 2px 4px 3px;
+    }
+    .option {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .bitmoji {
+        width: 30%;
+    }
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skills .container {
+    padding: 2rem 0;
+}
+.container {
+    max-width: 1200px;
+    padding: 1.5rem 1.5rem;
+    margin: auto;
+    overflow: hidden;
+    /* transition: all 0.3s ease; */
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.skills {
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+ .skills-icons li {
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+section {
+    display: block;
+}
+
+.skills-icons {
+    display: inline-flex;
+    line-height: 1.5;
+    pointer-events: auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skills {
+    background-color: white;
+}
+
+ul li:hover {
+    transform: scale(1.3);
+}
+
+/*  */
+.contact {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 3rem; */
+    flex-wrap: wrap;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.contact .card-container .card {
+    background: #fff;
+    width: 260px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0.15rem 0.6rem rgb(43 52 56 / 15%);
+    border-radius: 3px;
+}
+
+.contact img {
+    width: 50px;
+}
+
+.resume {
+    text-align: center;
+    padding: 3rem;
+    margin: 0rem 1rem;
+    border-top: 4px dashed gray;
+    border-bottom: 4px dashed gray;
+    background-color: rgba(176, 176, 176, 0.232);
+    /* border-radius: 50px; */
+    /* margin-bottom: 2rem; */
+}
+.resume img {
+    width: 100px;
+    opacity: 60%;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+}
+footer h3 {    
+    font-family: 'Sacramento', cursive;
+    color: rgb(122, 152, 218);
+    font-size: 250%;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.madewithlove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-weight: lighter;
+}
+
+img.madewithloveImg {
+    width: 25px;
+    margin: 0px 2px;
+}
+
+footer img.bottomImg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0rem 2rem;
+    width: 70%;
+}
+
+/* .text-blue {
+    color: rgb(101, 101, 101);
+} */
