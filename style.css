@@ -43,15 +43,17 @@ p{
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(214, 214, 214);
+    background-color: rgba(102, 102, 102, 0.264);
 }
 
 .option :hover{
     border-bottom: 3px solid rgb(100, 100, 100);
-    border-top: 3px solid rgb(100, 100, 100);
+    /* border-top: 3px solid rgb(100, 100, 100); */
+    transition: 300ms;
     color: black;
     font-weight: bold;
 }
+
 
 .option a.active {
     border-bottom: 3px solid rgb(100, 100, 100);
@@ -249,6 +251,7 @@ footer img.bottomImg{
     width: 70%;
 }
 
-/* .text-blue {
-    color: rgb(101, 101, 101);
-} */
+p.copyright{
+    font-size: smaller;
+    font-family: 'Inconsolata', monospace;
+}
